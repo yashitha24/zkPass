@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <section>
+        <h2>Age Gated Service</h2>
+        <input type="text" id="ageUserId" placeholder="User ID"><br><br>
+        <input type="text" id="ageEthereumId" placeholder="Ethereum ID"><br><br>
+        <button onclick="ageGatedLogin()">Login</button>
+        <p id="ageResult"></p>
+    </section>
+    <section>
+        <h2>Non Age Gated Service</h2>
+        <input type="text" id="nonAgeUserId" placeholder="User ID"><br><br>
+        <input type="text" id="nonAgeEthereumId" placeholder="Ethereum ID"><br><br>
+        <button onclick="nonAgeGatedLogin()">Login</button>
+        <p id="nonAgeResult"></p>
+    </section>
+</body>
+</html>
